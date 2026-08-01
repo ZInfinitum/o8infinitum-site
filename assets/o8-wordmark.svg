@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 200" role="img" aria-label="O8Infinitum wordmark">
+  <title>O8Infinitum wordmark</title>
+  
+  <defs>
+    <linearGradient id="o8-wm-grad" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0%" stop-color="#C71F3A"></stop>
+      <stop offset="35%" stop-color="#4D1A85"></stop>
+      <stop offset="70%" stop-color="#2C5BA0"></stop>
+      <stop offset="100%" stop-color="#2E9670"></stop>
+    </linearGradient>
+  </defs>
+  <text x="260" y="148" text-anchor="middle" font-family="&#39;Noto Serif&#39;, Georgia, &#39;Iowan Old Style&#39;, serif" font-style="italic" font-weight="500" font-size="180" letter-spacing="-5">
+    <tspan fill="#C71F3A">O</tspan><tspan fill="#4D1A85">8</tspan>
+  </text>
+  <text x="430" y="92" font-family="&#39;Noto Serif&#39;, Georgia, &#39;Iowan Old Style&#39;, serif" font-weight="500" font-size="84" fill="url(#o8-wm-grad)">∞</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" fill="none" role="img" aria-label="decorative orbital ring">
+  <title>Orbit ring — decorative hero motif</title>
+  
+  <defs>
+    <radialGradient id="orbit-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C71F3A" stop-opacity="0.35"></stop>
+      <stop offset="55%" stop-color="#C71F3A" stop-opacity="0.05"></stop>
+      <stop offset="100%" stop-color="#C71F3A" stop-opacity="0"></stop>
+    </radialGradient>
+  </defs>
+  <ellipse cx="300" cy="160" rx="260" ry="260" fill="url(#orbit-glow)"></ellipse>
+  <ellipse cx="300" cy="160" rx="280" ry="100" stroke="#2C5BA0" stroke-opacity="0.55" stroke-width="1"></ellipse>
+  <ellipse cx="300" cy="160" rx="280" ry="100" stroke="#2C5BA0" stroke-opacity="0.22" stroke-width="1" transform="rotate(18 300 160)"></ellipse>
+  <circle cx="40" cy="135" r="4" fill="#2E9670"></circle>
+  <circle cx="556" cy="195" r="2.5" fill="#2C5BA0" opacity="0.85"></circle>
+  <circle cx="510" cy="92" r="1.8" fill="#F1ECE2" opacity="0.8"></circle>
+  <circle cx="120" cy="60" r="1.4" fill="#F1ECE2" opacity="0.6"></circle>
+  <circle cx="450" cy="240" r="1.4" fill="#F1ECE2" opacity="0.55"></circle>
+</svg>

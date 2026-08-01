@@ -1,0 +1,100 @@
+/* O8Infinitum — brand fonts
+ *
+ * Local @font-face declarations for the brand typeface (Noto Serif, via
+ * variable fonts - free and openly licensed, used for BOTH display and
+ * body roles) and the full OpenDyslexic family (used as the brand's
+ * accessibility-mode body + mono stack).
+ *
+ * The body sans (Sora) and code mono (JetBrains Mono) load via Google Fonts
+ * `<link>` in each consuming HTML file.
+ */
+
+/* ============================================================
+ * Noto Serif — the brand's display serif.
+ * Two variable fonts (upright + italic) cover every weight (100–900)
+ * and every width (62.5%–100%, i.e. ExtraCondensed through Normal).
+ * Specific weight/width files are also on disk if a future need wants
+ * them, but the variable fonts are the production stack.
+ * ============================================================ */
+
+@font-face {
+  font-family: "Noto Serif";
+  src: url("NotoSerif-VariableFont_wdth_wght.ttf") format("truetype-variations"),
+       url("NotoSerif-VariableFont_wdth_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-stretch: 62.5% 100%;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Serif";
+  src: url("NotoSerif-Italic-VariableFont_wdth_wght.ttf") format("truetype-variations"),
+       url("NotoSerif-Italic-VariableFont_wdth_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-stretch: 62.5% 100%;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ============================================================
+ * OpenDyslexic — togglable a11y body/mono replacement.
+ * Activated via [data-a11y="dyslexia"] on the root.
+ * ============================================================ */
+
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("OpenDyslexic-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("OpenDyslexic-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("OpenDyslexic-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "OpenDyslexic";
+  src: url("OpenDyslexic-BoldItalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenDyslexic Alta";
+  src: url("OpenDyslexicAlta-Regular.otf") format("opentype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "OpenDyslexic Alta";
+  src: url("OpenDyslexicAlta-Italic.otf") format("opentype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "OpenDyslexic Alta";
+  src: url("OpenDyslexicAlta-Bold.otf") format("opentype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "OpenDyslexic Alta";
+  src: url("OpenDyslexicAlta-BoldItalic.otf") format("opentype");
+  font-weight: 700; font-style: italic; font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenDyslexic Mono";
+  src: url("OpenDyslexicMono-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
